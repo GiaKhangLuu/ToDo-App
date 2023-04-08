@@ -9,8 +9,17 @@
   	<display-name>TestController</display-name>
   	<servlet-class>com.khang.TestController</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>UserController</servlet-name>
+  	<display-name>UserController</display-name>
+  	<servlet-class>com.khang.todoapp.web.UserController</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>TestController</servlet-name>
   	<url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserController</servlet-name>
+  	<url-pattern>/register</url-pattern>
   </servlet-mapping>
 </web-app>
